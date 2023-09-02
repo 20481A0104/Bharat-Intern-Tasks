@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BhaNu's Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost&family=Poppins:wght@400;600;700&family=Varela+Round&display=swap"
+    rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: rgb(0, 0, 33);
+      color: white;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 70px;
+      background-color: rgb(18, 18, 62);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      list-style-type: none;
+      margin: 0 23px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    nav ul li a:hover {
+      color: rgb(145, 145, 236);
+      font-size: 1.02rem;
+    }
+
+    .left {
+      font-size: 1.5rem;
+    }
+
+    .firstSection {
+      display: flex;
+      justify-content: space-around;
+      margin: 23px 0;
+      align-items: center;
+    }
+
+    .firstSection>div {
+      width: 30%;
+      margin: 80px 0;
+    }
+
+    .leftSection {
+      font-size: 2rem;
+
+    }
+
+    .rightSection img {
+      width: 85%;
+    }
+
+    .purple {
+      color: rgb(170, 111, 225);
+    }
+
+    .secondSection {
+      max-width: 80vw;
+      margin: auto;
+      height: 80vh;
+    }
+
+    hr {
+      border: 0;
+      background: #9c97f1;
+      height: 1px;
+      margin: 40px 80px;
+    }
+
+    .role {
+      color: rgb(170, 111, 225);
+    }
+
+    .gray {
+      color: gray;
+    }
+
+    .secondSection h1 {
+      font-size: 1.8rem;
+    }
+
+    .box {
+      background: white;
+      width: 80vw;
+      height: 2px;
+      margin: 56px 0;
+      display: flex;
+    }
+
+    .vertical {
+      height: 90px;
+      width: 1px;
+      background-color: white;
+      margin: 0 100px;
+    }
+
+    .image-top {
+      width: 30px;
+      position: relative;
+      top: -35px;
+      left: -17px;
+    }
+
+    .skill {
+      position: relative;
+      top: 50px;
+      left: -20px;
+      width: 150px;
+
+    }
+
+    .desc {
+      position: relative;
+      top: 80px;
+      left: -20px;
+      color: gray;
+      width: 150px;
+      font-size: 10px;
+    }
+
+    .css-logo,
+    .js-logo {
+      width: 26px;
+      position: relative;
+      top: -39px;
+      left: -14px;
+    }
+
+    footer {
+      background-color: #1e1e38;
+      height: 80px;
+    }
+
+    button {
+      padding: 7px;
+      background: #1e2167;
+      color: white;
+      border: 1.5px solid white;
+      border-radius: 6px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+    .final-line{
+      padding: 30px 30px;
+    }
+    .text-center{
+      text-align: center;
+      color: gray;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">BhaNu's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="/">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hi, My name is <span class="purple">BhaNu</span>
+        <div>and Iam a Passionate</div>
+        <div class="role">Web Developer</div>
+        <button class="btn">Download CV</button>
+        <button class="btn">Github</button>
+
+      </div>
+      <div class="rightSection">
+        <img src="dev.png.png" alt="">
+      </div>
+    </section>
+    <hr>
+    <section class="secondSection">
+      <span class="gray">What I learn till now</span>
+      <h1>Skills</h1>
+
+      <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="python.png" alt="">
+          <div class="skill">
+            Python
+          </div>
+          <div class="desc">
+            Python is a widely-used programming language known for its simplicity and versatility. As a skill,
+            proficiency in Python opens up various opportunities in web development, data analysis, machine learning,
+            and more.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="html.png" alt="">
+          <div class="skill">
+            HTML5
+          </div>
+          <div class="desc">
+            Hypertext Markup Language is the standard markup language used for creating web pages and
+            applications.Proficiency in HTML is a fundamental skill for anyone involved in web development or content
+            creation.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="css-logo" src="css.png" alt="">
+          <div class="skill">
+            CSS
+          </div>
+          <div class="desc">
+            CSS (Cascading Style Sheets) is a powerful styling language used to enhance the visual appearance of web
+            pages and applications. It is a key skill for anyone involved in web design and development.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="js-logo" src="js.png" alt="">
+          <div class="skill">
+            JavaScript
+          </div>
+          <div class="desc">
+            JavaScript is a versatile programming language primarily used for web development.It allows developers to
+            add interactivity and functionality to web pages,making it an essential skill for creating interactive
+            websites and applications.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="mysql.png" alt="">
+          <div class="skill">
+            MySQL
+          </div>
+          <div class="desc">
+            MySQL is a widely-used relational database management system (RDBMS) that allows for efficient storage,
+            organization, and retrieval of data. Proficiency in MySQL as a skill is valuable for anyone working with
+            databases.
+          </div>
+        </div>
+    </section>
+
+  </main>
+  <footer>
+    <p class="final-line">BhaNu's Portfolio</p>
+    <p class="text-center">
+      bhanusportfolio.com</p>
+    
+  </footer>
+</body>
+
+</html>
